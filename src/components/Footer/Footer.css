@@ -1,0 +1,38 @@
+.footer-container {
+  margin-top: 50px;
+  padding: 24px 0;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-copyright {
+  margin: 0;
+}
+
+.footer-contacts {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-contacts {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

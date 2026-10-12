@@ -1,0 +1,70 @@
+.partner-card {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #f0f0f0;
+}
+
+.partner-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  min-height: 60px;
+}
+
+.partner-card-logo {
+  max-width: 190px;
+  object-fit: contain;
+}
+
+.partner-logo-icl {
+  max-height: 46px;
+}
+
+.partner-logo-tatneft {
+  max-height: 56px;
+}
+
+.partner-card-logo-text {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.partner-text-icl {
+  color: #e11d48;
+}
+
+.partner-text-tatneft {
+  color: #16a34a;
+}
+
+.partner-card-link-icon {
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.partner-card-link-icon:hover {
+  transform: translate(3px, -3px);
+  color: #2563eb;
+}
+
+.partner-arrow-svg {
+  width: 34px;
+  height: 34px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.partner-card-desc {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #111827;
+}

@@ -1,0 +1,261 @@
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-banner {
+  align-items: center;
+  gap: 32px;
+}
+
+.hero-image-wrapper {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+  object-position: center;
+  height: 360px;
+  display: block;
+}
+
+.rating-badge {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  padding: 8px 14px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: #d97706;
+}
+
+.rating-star {
+  font-size: 18px;
+}
+
+.rating-subtitle {
+  font-size: 11px;
+  opacity: 0.9;
+}
+
+.hero-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 100%;
+  justify-content: center;
+}
+
+.hero-tag {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 4px 12px;
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.hero-title {
+  font-size: 28px;
+  line-height: 1.35;
+  font-weight: 800;
+  color: #111827;
+}
+
+.hero-description {
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.hero-badges-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.quick-search-box {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.quick-search-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.quick-search-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.quick-search-btn {
+  padding: 10px 20px;
+  background-color: #1e3a8a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.quick-search-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.hero-cta-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+/* Статистика на главной */
+.stats-section {
+  background-color: #ffffff;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.stat-card {
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #f9fafb;
+}
+
+.stat-number {
+  font-size: 32px;
+  font-weight: 800;
+  color: #2563eb;
+}
+
+.stat-label {
+  color: #4b5563;
+  font-size: 14px;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+/* Партнеры на главной */
+.home-partners-section {
+  background-color: #ffffff;
+}
+
+.section-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.view-all-partners-btn {
+  padding: 8px 16px;
+  font-size: 13px;
+}
+
+.home-partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.partner-home-card {
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.2s;
+  background-color: #ffffff;
+}
+
+.partner-home-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.home-partner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  min-height: 48px;
+}
+
+.home-partner-logo {
+  max-width: 150px;
+  object-fit: contain;
+}
+
+.home-logo-icl {
+  max-height: 38px;
+}
+
+.home-logo-tatneft {
+  max-height: 44px;
+}
+
+.home-partner-text-logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.home-text-icl {
+  color: #e11d48;
+}
+
+.home-text-tatneft {
+  color: #16a34a;
+}
+
+.home-partner-arrow {
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.home-partner-description {
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image {
+    height: 240px;
+  }
+}

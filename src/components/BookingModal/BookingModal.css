@@ -1,0 +1,49 @@
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.booking-field-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.modal-textarea {
+  resize: vertical;
+}
+
+.booking-submit-btn {
+  width: 100%;
+  padding: 12px;
+}
+
+.booking-success-box {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.booking-success-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.booking-success-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.booking-success-text {
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 6px;
+}

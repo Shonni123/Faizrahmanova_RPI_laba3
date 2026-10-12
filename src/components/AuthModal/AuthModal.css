@@ -1,0 +1,70 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-field-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.auth-role-tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-role-btn {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  color: #374151;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.auth-role-btn.active {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+  color: #1d4ed8;
+}
+
+.auth-submit-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+}
+
+.auth-success-box {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.auth-success-icon {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.auth-success-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.auth-success-text {
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 6px;
+}

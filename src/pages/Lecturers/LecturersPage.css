@@ -1,0 +1,25 @@
+.lecturers-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.lecturers-toolbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.lecturers-filter-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.lecturers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
